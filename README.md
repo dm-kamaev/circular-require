@@ -23,7 +23,7 @@ with browserify.transform field, it'll use those transforms while resolving
 dependencies.
 
 ```sh
-$ ~/src/app-styles〉circular-require src/index.js
+$ ~/src/app-styles〉circular-require /src/index.js
 found 1 cycles
 [ '/Users/tmcw/src/app-styles/src/components/forms/_index.js',
   '/Users/tmcw/src/app-styles/src/util/_compute_form.js',
